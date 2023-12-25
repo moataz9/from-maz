@@ -1,0 +1,815 @@
+[
+  {
+    "id": 1,
+    "name": "CARS , MOTORCYCLES & ACCESSORIES",
+    "description": null,
+    "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/o0XfOKPJ8qbPv3eTGohQ8lXafJ5nvmOJSQYIFNHW.png",
+    "slug": "cars-motorcycles-accessories",
+    "children": [
+      {
+        "id": 13,
+        "name": "Cars",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/kEE9v9xOHnZrprP24h76ZmEL6iuXPOKetgrkyoY6.png",
+        "slug": "cars",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 14,
+        "name": "Auto Parts & Accessories",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/2LpHboKSmYu9YE55pJWuRpEZkQ8qmeXzVRU6LnZ1.png",
+        "slug": "auto-parts-accessories",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 15,
+        "name": "Motorcycles",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/dsMm47dXgwUnnq7LnbgXwVTuNSqAXBYpHUdnCNfI.png",
+        "slug": "motorcycles",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 16,
+        "name": "Bicycles",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/xHMFRm6nzB7lKppTMFMT6iKrQdFycual7Iaxge3f.png",
+        "slug": "bicycles",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 17,
+        "name": "MotorcycleS & Bicycles Accessories",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/5fROaAcgSQQS5oEjBTsFn7L4HfKtOtaP1Tsb7jpu.png",
+        "slug": "motorcycles-bicycles-accessories",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 100,
+        "name": "Vehicle Plates",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/pJ392yoZzlpidyV6HahI9EopoArg3g7p51fQGqOq.png",
+        "slug": "vehicle-plates",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 115,
+        "name": "dfdfdfd",
+        "description": null,
+        "image": "https://staging.mazaady.com/images/empty.png",
+        "slug": "dfdfdfd",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      }
+    ],
+    "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon2/xDADUsHAoXG5F5IBc8vkzo7VimMmxV2uw1Ty3c3V.png",
+    "disable_shipping": 0
+  },
+  {
+    "id": 2,
+    "name": "FURNITURE & FURNISHINGS FITTINGS",
+    "description": null,
+    "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/ITbpjt3i0REMt1Xy1i4p3V7eV7UMDtRvj5oc3BbM.png",
+    "slug": "furniture-furnishings-fittings",
+    "children": [
+      {
+        "id": 18,
+        "name": "Furniture , Furnishings",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/PANmuF9ZBKnZF4POad76I5pyQRzS0aZ6G7DCAwEw.png",
+        "slug": "furniture-furnishings",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 19,
+        "name": "Office Furniture & Equipment",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/O0xZ5mzWRSdA10HIN9Z4FeJgd7aFnpmwYxmh5FGg.png",
+        "slug": "office-furniture-equipment",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 20,
+        "name": "Kids Toys & Accessories",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/B2CymikMQAqGgXGgsdVYnBVsTVyDSzUDI3dlolZE.png",
+        "slug": "kids-toys-accessories",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 21,
+        "name": "Restaurants & Kitchens Equipment",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/zAONXWADvDmKqa7RBcKQDQR5PEqz59WhbrDB7H68.png",
+        "slug": "restaurants-kitchens-equipment",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 22,
+        "name": "Modern Antique & Gifts",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/2/9LTbJusjswrj9eXEQeJzRly8NOhTEojVQU2wNp4S.jpg",
+        "slug": "modern-antique-gifts",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 103,
+        "name": "Home Care Products",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/Pk3PmgTWtlYpCmqS2mIijJyWg4sTikXcym5Mu9zy.png",
+        "slug": "home-care-products",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      }
+    ],
+    "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon2/IhYwMcbRrZDHIXVP9EeIEMJreyY456LeueRYkGQK.png",
+    "disable_shipping": 0
+  },
+  {
+    "id": 3,
+    "name": "ELECTRICAL, MOBILES & ACCESSORIES",
+    "description": null,
+    "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/cxNoWV9YoI4J7GYBJkcmm9vJ6ejCKEB9aaRVaPCP.png",
+    "slug": "electrical-mobiles-accessories",
+    "children": [
+      {
+        "id": 23,
+        "name": "Electrical Devices",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/tQ1FQTdxfPrgQjQmK3WrlfXOESZsPmS2C3rMDWUD.png",
+        "slug": "electrical-devices",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 24,
+        "name": "Mobile Phones",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/ewwyibMBfax3XLZLRQxRG3Q8r0iUqcGGLJn3lOxs.png",
+        "slug": "mobile-phones",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 25,
+        "name": "Mobile Accessories",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/2/37SLwpWEsuyHsDKL3WZpRl6tr5akTTrhmUg4brrI.jpg",
+        "slug": "mobile-accessories",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 26,
+        "name": "Computers",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/EE8Erfg2x9v1PXTnhP096WSOSj1u50wLnMUmGIXk.png",
+        "slug": "computers",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 27,
+        "name": "Computer Accessories",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/GwJTGOy829rP1VV9P3yUsdPSPX6RNNIaEA3QMujI.png",
+        "slug": "computer-accessories",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 28,
+        "name": "Video Games ,VR Glasses,Drones & Accessories",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/yLyw5Klj2OKkZEipUzIXcuQTzHT3aIUz2XY2AqHB.png",
+        "slug": "video-games-vr-glassesdrones-accessories",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 29,
+        "name": "Cameras",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/WeypOFmDRBtoDQ6ew2z2LUMBPqx9Kb8wXKQZZX2Q.png",
+        "slug": "cameras",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 30,
+        "name": "Accessories For Cameras",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/Wdmc32oukm6oMLF4RvpCdXTyOkUIwN9iBbz3ycFN.png",
+        "slug": "accessories-for-cameras",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 31,
+        "name": "Fitness Equipment & Devices",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/BqE4StDkGOqyOYGmEcqukFAK8vQzHBirOCowt8z1.png",
+        "slug": "fitness-equipment-devices",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 99,
+        "name": "Musical Instruments, DVD Films & Accessories",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/nMy9YlDN8tUvqVGTERuWG9cBneaLeqH0HMWdgDNu.png",
+        "slug": "musical-instruments-dvd-films-accessories",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 101,
+        "name": "VIP Numbers",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/NZugaXbKBwFB0EPLUOhHVKBhuHLIObhUzEqdUajy.png",
+        "slug": "vip-numbers",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      }
+    ],
+    "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon2/nfqhdsEH8lxqImb6wqDbSGoFYZ3LTyL6cujtfuhT.png",
+    "disable_shipping": 0
+  },
+  {
+    "id": 4,
+    "name": "REAL ESTATE , Trade Names",
+    "description": null,
+    "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/jC5NYVx5L0wBsCQ8BWEkJRrK2PsVYo04lRwyLoJW.png",
+    "slug": "real-estate-trade-names",
+    "children": [
+      {
+        "id": 32,
+        "name": "Real Estates",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/UEihjEGNlML6UhADUujfF23wyEfzflcI2LdgzKgB.png",
+        "slug": "real-estates",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 33,
+        "name": "Lands",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/opKBYlP6yE6XyDqt5IxLvxsmJiT7mF4onaOZyBuu.png",
+        "slug": "lands",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 105,
+        "name": "Trade and brand names",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/2/tlUnXVwTxxQMgeyrVZVmjpkSYUPbelXNjb9PIJm7.png",
+        "slug": "trade-and-brand-names",
+        "children": null,
+        "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon/2/9dQpsTn0fa2pYZ6JW4zCFQEg577305JhgFuskC4m.png",
+        "disable_shipping": 1
+      }
+    ],
+    "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon2/8UQuNLTFVN6M4O1lDr1Ili0oDXkGsIfnEn9W9EOh.png",
+    "disable_shipping": 0
+  },
+  {
+    "id": 5,
+    "name": "ANIMALS & ACCESSORIES",
+    "description": null,
+    "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/8NwtQ2L1f7hA4vYxZX4h7R2vYVOyMWMhLM43ohgd.png",
+    "slug": "animals-accessories",
+    "children": [
+      {
+        "id": 34,
+        "name": "Pets Animal",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/RSTTaAKLW0k0Cg7hf2THYRbjmVaqok6Ul5rASHQT.png",
+        "slug": "pets-animal",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 35,
+        "name": "Farms Animal",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/oz4vZ15wPncV5v3O33Ar8WcJbyQjKD7tsMdakrRn.png",
+        "slug": "farms-animal",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 36,
+        "name": "Exotic Animal",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/uQQGSth6kZSLDigDjq9zFoehKJ6TiTSph9CBf6Jg.png",
+        "slug": "exotic-animal",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 102,
+        "name": "Animals Supplies",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/T1fw394FN0EaZDgrTK2qgwqtRa4tr2pwJiLK1Aqm.png",
+        "slug": "animals-supplies",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      }
+    ],
+    "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon2/1m8nN0nCRjDHB1eVoZ35kyBCE1V7NLRIs4usTUMe.png",
+    "disable_shipping": 0
+  },
+  {
+    "id": 6,
+    "name": "EQUIPMENTS , TOOLS",
+    "description": null,
+    "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/Qgvt8DjzvNx7G7zx3nY3JkvNOo9bd1FiComVNbOI.png",
+    "slug": "equipments-tools",
+    "children": [
+      {
+        "id": 38,
+        "name": "Light Equipment , Tools",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/b6O3eiVAe51eLdLgEbZo6o7nWvUTaVzgiqwoCMXn.png",
+        "slug": "light-equipment-tools",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 39,
+        "name": "Fishing, Hunting Equipments & Accessories",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/XRTtJYBBSrw0ET7bLer7vtECS5QPrlzhBDuxA9yt.png",
+        "slug": "fishing-hunting-equipments-accessories",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 40,
+        "name": "Boats & Sea Activities",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/iRr9Bag6KrKScdNd8kPJcu7OIw1cLZ64SYrK5NkM.png",
+        "slug": "boats-sea-activities",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 41,
+        "name": "Scrap",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/2NVi6zySej4vuX9LtgIeLlYUb3khlc0DSIX5VqXV.png",
+        "slug": "scrap",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 97,
+        "name": "Heavy Equipment",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/WRM4bwQMeQOBuT72XZXH4vJjdgW8y4bOJJsqIxtc.png",
+        "slug": "heavy-equipment",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 1
+      }
+    ],
+    "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon2/AFaOwDZ0IDmC4P1pBkrEGyM37nhRodJafEOXQD5L.png",
+    "disable_shipping": 0
+  },
+  {
+    "id": 7,
+    "name": "CLOTHING, SHOES , BAGS",
+    "description": null,
+    "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/11BMZuKddmzd7epTsjZxXwxIculvgLwufzYnm15u.png",
+    "slug": "clothing-shoes-bags",
+    "children": [
+      {
+        "id": 42,
+        "name": "Clothes",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/ose7w4laNg2ZDLaMKXbm5Bp12eZtsiVp95NH31Hs.png",
+        "slug": "clothes",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 43,
+        "name": "Shoes",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/hHl1VBkEaKJcNtBJpGEiHU5hXlxxK3RGYlnWVpuj.png",
+        "slug": "shoes",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 44,
+        "name": "Bags",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/BIawzrpf1rgvKfFlVPh2oWGwmLTh7Yg9PxkgDZoG.png",
+        "slug": "bags",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 45,
+        "name": "School & Office Supplies",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/kRIV47abxgIkFps92sbz4GXM4DDZGhSpOGfGctk4.png",
+        "slug": "school-office-supplies",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 98,
+        "name": "Fabric , Sewing Supplies & Accessories",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/5jQwmcjg5NaQ5X18F7TUjoiAA7EfQTQz8nFkcwqu.png",
+        "slug": "fabric-sewing-supplies-accessories",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      }
+    ],
+    "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon2/KYd0lwXqVkzD44Qn05kAINeKBW4uevP0gkoS2kFC.png",
+    "disable_shipping": 0
+  },
+  {
+    "id": 8,
+    "name": "ANTIQUE, COINS , ART",
+    "description": null,
+    "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/2/Gp53HRap9FCQkS8cIYmY1yohvViTyJrNeMZ9Dnug.jpg",
+    "slug": "antique-coins-art",
+    "children": [
+      {
+        "id": 94,
+        "name": "ANTIQUE , COINS , ART",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/T7cpT44BW8wHEwCxcU9pjk6JxwGjVAoEl4GJEfUb.png",
+        "slug": "antique-coins-art",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 1
+      }
+    ],
+    "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon2/EWaqb6pSgxnCrziiK9Shtf106mVP3QmhAhct6PBK.png",
+    "disable_shipping": 0
+  },
+  {
+    "id": 9,
+    "name": "FRAGRANCES , ACCESSORIES",
+    "description": null,
+    "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/xLhUrgj8I9WMu5a253AhqXpu1n5VyuaydeyqmsvS.png",
+    "slug": "fragrances-accessories",
+    "children": [
+      {
+        "id": 52,
+        "name": "Watches",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/zhibgOEiWxnIDHDPt7wKyQKjqpQ3ieMQR0HPAeAQ.png",
+        "slug": "watches",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 53,
+        "name": "Eyeglasses , Lenses& Accessories",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/0sanvOEGweUD6ECoTh0n2R2kcjXTBmWdYICq3KQO.png",
+        "slug": "eyeglasses-lenses-accessories",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 54,
+        "name": "Jewelry , ACCESSORIES",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/d4F7uxOES6lE1ffQpiW4M8NfvSPjber7wJbyzNmk.png",
+        "slug": "jewelry-accessories",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 55,
+        "name": "Makeup , Personal Care Product",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/u7kHuu1QF5nRFMyVhfoRQEzbkmJXudQjmAkLgPVM.png",
+        "slug": "makeup-personal-care-product",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 56,
+        "name": "Fragrances",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/pyPML1vCRcyNC3YAW75UoF13flAqPABOjMhsIT8M.png",
+        "slug": "fragrances",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      }
+    ],
+    "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon2/RkA3Sv2RmkbWyTunisP2RhjLwHFCQukoed6DUucq.png",
+    "disable_shipping": 0
+  },
+  {
+    "id": 10,
+    "name": "MEDICAL PRODUCTS & EQUIPMENT",
+    "description": null,
+    "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/Z8twiScyNDs6uBGmntxRyaiLJY7stSXoQNo1ZNRn.png",
+    "slug": "medical-products-equipment",
+    "children": [
+      {
+        "id": 57,
+        "name": "Vitamin , Dietary Supplements",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/GM9rpZQWFxletZDgb1wmvpTeEkopLmDIlNiHWMRV.png",
+        "slug": "vitamin-dietary-supplements",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 58,
+        "name": "Family & Health Care",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/I3OFleo9BU2XD7SD4cWoYVAYMG3NwlTnryyZhgIS.png",
+        "slug": "family-health-care",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 59,
+        "name": "Sport Nutrition",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/R2gHYUK9UtHNdsVM5JVtYMM1p89spqPz7FueGHSp.png",
+        "slug": "sport-nutrition",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 60,
+        "name": "Medical Equipment & Accessories",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/M36589jGwT7HKJElfCwR3XsqiwTfV2Kmmc9zEnd7.png",
+        "slug": "medical-equipment-accessories",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      }
+    ],
+    "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon2/o380zsly5VYZIrSlnnrl6qQtDXIMtA9hHh4UGOro.png",
+    "disable_shipping": 0
+  },
+  {
+    "id": 11,
+    "name": "Gardens & Swimming Pool Supplies , agricultural equipment",
+    "description": null,
+    "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/qiJVnhy5Suu03fx6FVcKQ90GF6p0dDHrz8X8TRlJ.png",
+    "slug": "gardens-swimming-pool-supplies-agricultural-equipment",
+    "children": [
+      {
+        "id": 61,
+        "name": "Garden & Accessories",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/la1SKYSxmeH0DLoRNFChQuEcR2sXdt03N1Eyhw0x.png",
+        "slug": "garden-accessories",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 62,
+        "name": "Agriculture Equipments & Accessories",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/PHOWjQ7rTWQLIXB5IjwssEU6FmYQI80uOmOUvqmg.png",
+        "slug": "agriculture-equipments-accessories",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 63,
+        "name": "Swimming Pool & Accessories",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/2qFRYZwQRWW8PvwaWjIKy3GzwPljUM9xBFLcWvmH.png",
+        "slug": "swimming-pool-accessories",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 64,
+        "name": "Multipurpose Sport Flooring , Landscaping",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/wsBcMmPe3DkpBlxk3lKtVZ781RwPEbQaox7LE9it.png",
+        "slug": "multipurpose-sport-flooring-landscaping",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      },
+      {
+        "id": 65,
+        "name": "Water pump , Filtration System & Accessories",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/q0BSNmZ9QqMe4Ij1cSZqAwfxOGiTZcHEbLeI26Ui.png",
+        "slug": "water-pump-filtration-system-accessories",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 0
+      }
+    ],
+    "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon2/0kKacJtRgqXUdU6d9ofHBatOPWxVPrLsNge0aq2P.png",
+    "disable_shipping": 0
+  },
+  {
+    "id": 12,
+    "name": "FOOD & HERB PRODUCTS",
+    "description": null,
+    "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/iZWCAAx8lwtlRRe3v7kEjFM8w6jGh580M6Z6HLxm.png",
+    "slug": "food-herb-products",
+    "children": [
+      {
+        "id": 95,
+        "name": "FOOD & HERB PRODUCT",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/1/kTdFMgfZv4DfRbXI3FlhcnWi8gbphHRaRKOxP8Dr.png",
+        "slug": "food-herb-product",
+        "children": null,
+        "circle_icon": "https://staging.mazaady.com/images/empty.png",
+        "disable_shipping": 1
+      }
+    ],
+    "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon2/zi2C6zeloQLIeeFaN8oVWDlikrl29RGc3SRs5ACV.png",
+    "disable_shipping": 0
+  },
+  {
+    "id": 104,
+    "name": "Information Technology",
+    "description": null,
+    "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/2/Mb7dG0ZzKiN1yeMYdxzeVXr7Xm6eN3mLlIgbIKA4.png",
+    "slug": "information-technology",
+    "children": [
+      {
+        "id": 106,
+        "name": "Domain",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/2/T42qkKBfMViLa3Vv8G8n1imrmJ1cCYGDcPZ3M9FA.png",
+        "slug": "domain",
+        "children": null,
+        "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon/2/en2Dhk6kXljYrrgXVvtaqJmJeyc9uN9vSM1F7e24.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 107,
+        "name": "Websites",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/2/10wsCuCRXzQvhqoM1D1Mk2F5PgyNQxRcTaC2qoT6.png",
+        "slug": "websites",
+        "children": null,
+        "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon/2/51CWNEJeXMiHmCeFnIgaW73tI2dhgzVDTNhnBRCh.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 108,
+        "name": "Applications",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/2/pHf7NY3qEQqb107ibOplvREeUaR5mfBnz2z8lHa6.png",
+        "slug": "applications",
+        "children": null,
+        "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon/2/FAbzMuanSBrWpYR6maDbyC4LrZGmVLHOXZRdeY1v.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 109,
+        "name": "Programs",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/2/Zn3IHjIXEBNw1mAVaGtvhanYEBl0B3AlBd0eZHTe.png",
+        "slug": "programs",
+        "children": null,
+        "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon/2/IWyrB9KfU0m0XzlYQxxCUFhZf0liJk6CXMmI5f01.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 110,
+        "name": "Social media platforms",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/2/GakPHgoHgwKjeVLXBlOEY6IUETOv3hqu97WGz7Ev.png",
+        "slug": "social-media-platforms",
+        "children": null,
+        "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon/2/AF7tOfqYnBzM1E364s0SncpzO7otZUFNmgu04YNS.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 111,
+        "name": "Software and algorithms",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/2/mwOfODRjXarjh6lRqbFv3kWWn1LNGbdFm3KJnOOQ.png",
+        "slug": "software-and-algorithms",
+        "children": null,
+        "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon/2/0rFyS4RJiGbrRhtE8MVWG5DAZrCFUDQAU8lT1nGQ.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 112,
+        "name": "Software and algorithms",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/2/mwOfODRjXarjh6lRqbFv3kWWn1LNGbdFm3KJnOOQ.png",
+        "slug": "software-and-algorithms-2",
+        "children": null,
+        "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon/2/0rFyS4RJiGbrRhtE8MVWG5DAZrCFUDQAU8lT1nGQ.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 113,
+        "name": "Software and algorithms",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/2/mwOfODRjXarjh6lRqbFv3kWWn1LNGbdFm3KJnOOQ.png",
+        "slug": "software-and-algorithms-3",
+        "children": null,
+        "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon/2/0rFyS4RJiGbrRhtE8MVWG5DAZrCFUDQAU8lT1nGQ.png",
+        "disable_shipping": 1
+      },
+      {
+        "id": 114,
+        "name": "Software and algorithms",
+        "description": null,
+        "image": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/2/mwOfODRjXarjh6lRqbFv3kWWn1LNGbdFm3KJnOOQ.png",
+        "slug": "software-and-algorithms-4",
+        "children": null,
+        "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon/2/0rFyS4RJiGbrRhtE8MVWG5DAZrCFUDQAU8lT1nGQ.png",
+        "disable_shipping": 1
+      }
+    ],
+    "circle_icon": "https://mazaady-test.s3.us-east-2.amazonaws.com/categories/circle_icon/2/ChnNAA4Vqu2SLnfTRoydFZBbxKeTPSx2uZkzC9Xl.png",
+    "disable_shipping": 0
+  },
+  {
+    "id": 116,
+    "name": "rtrrt",
+    "description": null,
+    "image": "https://staging.mazaady.com/images/empty.png",
+    "slug": "rtrrt",
+    "children": [],
+    "circle_icon": "https://staging.mazaady.com/images/empty.png",
+    "disable_shipping": 0
+  }
+]
