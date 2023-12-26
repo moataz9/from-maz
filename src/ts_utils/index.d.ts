@@ -31,7 +31,7 @@ export interface categories_data {
   huawei_version: number
 }
 
-interface categoryChildPropertyOption {
+export interface categoryChildPropertyOption {
   id: number
   name: string
   slug: string
@@ -44,13 +44,14 @@ export interface categoryChildProperty {
   name: string
   description: string | null
   slug: string
-  parent: string
+  parent: number
   list: false
-  type: string
+  type: string | null
   value: string
   other_value: string
   options: categoryChildPropertyOption[]
   choosedPropertyOption: categoryChildPropertyOption | null
+  childrenIds: number[]
 }
 
 // export interface categoryChildProperties_data {}

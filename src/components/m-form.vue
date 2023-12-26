@@ -1,6 +1,11 @@
 <script lang="ts" setup>
 import { ref, inject, onMounted, watch } from 'vue'
-import type { category, categories_data, categoryChildProperty } from '@/ts_utils'
+import type {
+  category,
+  categories_data,
+  categoryChildProperty,
+  categoryChildPropertyOption,
+} from '@/ts_utils'
 
 import type { AxiosStatic, AxiosResponse } from 'axios'
 
@@ -51,9 +56,52 @@ const fetchCategoryChildProperties = async (propertyId: number) => {
         },
       ],
       choosedPropertyOption: null,
+      childrenIds: [],
     }))
   } catch (error) {
     console.error('Error fetching properties:', error)
+  }
+}
+
+const updateChildProperties = async (option: categoryChildPropertyOption | null) => {
+  if (!option || option.slug === 'other') return
+  const parentPropertyIndex = categoryChildProperties.value.findIndex(
+    item => item.options.findIndex(op => op.id === option.id) !== -1
+  )
+  if (parentPropertyIndex !== -1) {
+    let itemsCount = 0
+    for (let i = parentPropertyIndex; i < categoryChildProperties.value.length; i++) {
+      if (categoryChildProperties.value[i].childrenIds.length) {
+        itemsCount++
+      } else break
+    }
+    categoryChildProperties.value.splice(parentPropertyIndex + 1, itemsCount)
+  }
+  try {
+    const response: AxiosResponse = await axios.get('/get-options-child/' + option.id)
+    const newChildProperties = (response.data.data as categoryChildProperty[]).map(property => ({
+      ...property,
+      options: [
+        ...property.options,
+        {
+          id: Math.floor(Math.random() * 10000),
+          name: 'Other',
+          slug: 'other',
+          parent: property.id,
+          child: property.options[0]?.child || false,
+        },
+      ],
+      choosedPropertyOption: null,
+      childrenIds: [],
+    })) as categoryChildProperty[]
+    if (newChildProperties.length) {
+      categoryChildProperties.value[parentPropertyIndex].childrenIds = newChildProperties.map(
+        ch => ch.id
+      )
+      categoryChildProperties.value.splice(parentPropertyIndex + 1, 0, ...newChildProperties)
+    }
+  } catch (error) {
+    console.error('Error fetching child properties:', error)
   }
 }
 
@@ -106,7 +154,12 @@ onMounted(async () => {
     <!-- Property Dropdowns -->
     <div v-for="(property, index) in categoryChildProperties" :key="index">
       <label :for="property.slug">{{ property.name }} <sup class="text-red">*</sup></label> <br />
-      <select v-model="property.choosedPropertyOption" :id="property.slug" class="w-100 my-1">
+      <select
+        v-model="property.choosedPropertyOption"
+        @change="updateChildProperties(property.choosedPropertyOption)"
+        :id="property.slug"
+        class="w-100 my-1"
+      >
         <option v-for="option in property.options" :key="option.id" :value="option">
           {{ option.name }}
         </option>
